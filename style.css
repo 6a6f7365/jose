@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e0 {
+  border: 1px solid #000000;
+  box-shadow: 0 0 10px #777777;
+  width: 300px;
+  height: 300px;
+}
