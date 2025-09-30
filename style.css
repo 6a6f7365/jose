@@ -14,5 +14,5 @@ body {
 }
 
 .e0:focus {
-  border: none;
+  outline: none;
 }
