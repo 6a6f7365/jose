@@ -7,8 +7,8 @@ body {
 }
 
 .e0 {
-  border: 0.5px solid #000000;
-  box-shadow: 0 3px 3px #777777;
+  border: 1px solid #000000;
+  box-shadow: 0 3px 3px #CCCCCC;
   width: 300px;
   height: 50px;
 }
