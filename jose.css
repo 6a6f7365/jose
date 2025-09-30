@@ -1,14 +1,13 @@
-@font-face {
-  font-family: "text";
-  src: url("./FiraCode-Regular.ttf") format("truetype");
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 :root {
   --c: #eeeeee;
 }
 
 * {
-  font-family: "text";
+  font-family: "Fira Code", monospace;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
