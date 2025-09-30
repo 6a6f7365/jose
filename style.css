@@ -15,4 +15,5 @@ body {
 
 .e0:hover {
   border: none;
+  outline: none;
 }
