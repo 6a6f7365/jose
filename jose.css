@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "text";
+  src: url("./FiraCode-Regular.ttf") format("truetype");
+}
+
+:root {
+  --c: #eeeeee;
+}
+
+* {
+  font-family: "text";
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#e0 {
+  position: relative;
+  border: 1px solid #000000;
+  box-shadow: 0 3px 3px #dddddd;
+  box-sizing: border-box;
+  width: 270px;
+  height: 270px;
+}
+
+#e1 {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+
+  width: 180px;
+  height: 43px;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+}
+
+#e1:focus {
+  outline: none;
+}
+
+#e2 {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  text-align: right;
+  width: 57px;
+  height: 170px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  padding: 7px;
+}
+
+#e2e1 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+}
+
+#e2e2 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  background-color: #555555;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+}
+
+#e2e3 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  position: absolute;
+  right: 23px;
+  z-index: 3;
+}
+
+#e2e4 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  background-color: #555555;
+  color: #ffffff;
+  position: absolute;
+  right: 23px;
+  z-index: 2;
+}
+
+#e2e5 {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 10px;
+  background-color: #777777;
+  color: #ffffff;
+  position: absolute;
+  right: 23px;
+  z-index: 1;
+}
+
+#e3 {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 7px;
+  width: 57px;
+  height: 67px;
+  position: absolute;
+  bottom: 13px;
+  right: 13px;
+}
