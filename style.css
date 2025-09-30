@@ -13,7 +13,7 @@ body {
   height: 50px;
 }
 
-.e0:hover {
+.e0:focus {
   border: none;
   outline: none;
 }
