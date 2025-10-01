@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 :root {
   --c: #eeeeee;
@@ -130,3 +130,4 @@ body {
   bottom: 13px;
   left: 13px;
 }
+
