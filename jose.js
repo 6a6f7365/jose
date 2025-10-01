@@ -20,8 +20,8 @@ function update() {
   e2e1.textContent = `${year}.`;
   e2e2.textContent = `${year} *`;
   e2e3.textContent = `${month}${date}.`;
-  e2e4.textContent = `${month}${date} ,,${day}.`;
-  e2e5.textContent = `${month}${date} ,,${day} *`;
+  e2e4.textContent = `${month}${date} ,${day}.`;
+  e2e5.textContent = `${month}${date} ,${day} *`;
   e4.textContent = `${hour} : ${minute} : ${second}`;
 
   const next = 1000 - now.getMilliseconds();
@@ -30,3 +30,4 @@ function update() {
 }
 
 update();
+
