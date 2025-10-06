@@ -12,6 +12,16 @@ const e5e4c = document.getElementById("e5e4c");
 
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
+e1.addEventListener("keydown", (e) => {
+  if (e.key == "Enter") {
+    if (e1.value == "운지") {
+      window.location.assign(
+        "https://i1.sndcdn.com/artworks-ag2vNF1DQMy89Fky-zFgCbg-t500x500.jpg"
+      );
+    }
+  }
+});
+
 e5e2.addEventListener("click", () => {
   e5e4c.textContent = "SENT";
   setTimeout(function () {
