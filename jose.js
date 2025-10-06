@@ -10,6 +10,8 @@ const e5e2 = document.getElementById("e5e2");
 const e5e3c = document.getElementById("e5e3c");
 const e5e4c = document.getElementById("e5e4c");
 
+const uheung = new Audio("uheung.mp3");
+
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
 e1.addEventListener("keydown", (e) => {
@@ -18,6 +20,12 @@ e1.addEventListener("keydown", (e) => {
       document.location.href =
         "https://i1.sndcdn.com/artworks-ag2vNF1DQMy89Fky-zFgCbg-t500x500.jpg";
     }
+
+    if (e1.value == "우흥") {
+      uheung.play();
+    }
+
+    e1.value = "";
   }
 });
 
