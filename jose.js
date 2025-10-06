@@ -1,11 +1,23 @@
+const e1 = document.getElementById("e1");
 const e2e1 = document.getElementById("e2e1");
 const e2e2 = document.getElementById("e2e2");
 const e2e3 = document.getElementById("e2e3");
 const e2e4 = document.getElementById("e2e4");
 const e2e5 = document.getElementById("e2e5");
 const e4 = document.getElementById("e4");
+const e5e1 = document.getElementById("e5e1");
+const e5e2 = document.getElementById("e5e2");
+const e5e3c = document.getElementById("e5e3c");
+const e5e4c = document.getElementById("e5e4c");
 
 const days = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+
+e5e2.addEventListener("click", () => {
+  e5e4c.textContent = "SENT";
+  setTimeout(function () {
+    e5e4c.textContent = "";
+  }, 300);
+});
 
 function update() {
   const now = new Date();
@@ -30,4 +42,3 @@ function update() {
 }
 
 update();
-
